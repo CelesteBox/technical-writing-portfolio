@@ -2,7 +2,7 @@
 
 Celeste Box
 
-Bienvenida a una selección curada de mi trabajo técnico. Aquí encontrarás artículos pedagógicos, documentación de APIs, guías rápidas, release notes, troubleshooting y estudios de caso. Es un portfolio trilingüe (ES · EN · PT-BR) que muestra claridad, profundidad técnica y versatilidad en distintos géneros de documentación.
+Bienvenidos a una selección curada de mi trabajo técnico. Aquí encontrarás artículos pedagógicos, documentación de APIs, guías rápidas, release notes, troubleshooting y estudios de caso. Es un portfolio trilingüe (ES · EN · PT-BR) que muestra claridad, profundidad técnica y versatilidad en distintos géneros de documentación.
 
 ---
 
@@ -70,7 +70,7 @@ Bienvenida a una selección curada de mi trabajo técnico. Aquí encontrarás ar
 
 ## Contacto
 
-Si necesitas material adicional, traducciones, o una pieza específica para un proyecto, escribime a: inboxceleste@gmail.com
+Si necesitas material adicional, traducciones, o una pieza específica para un proyecto, hablemos: inboxceleste@gmail.com
 
 ---
 
