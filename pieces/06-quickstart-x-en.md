@@ -1,5 +1,5 @@
-### Release Notes (EN)
-# Release Notes — X Platform v1.8.0
+### Documentation — English (EN)
+# Quickstart Guide: Get Up and Running with X in 10 Minutes
 
 _(Artículo en progreso)_
 
