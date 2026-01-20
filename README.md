@@ -2,7 +2,7 @@
 
 This repository hosts my public technical writing portfolio.
 
-👉 View the live site:  
+👉 View the live site here:  
 https://celestebox.github.io/technical-writing-portfolio/
 
 ---
