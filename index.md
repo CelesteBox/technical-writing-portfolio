@@ -1,8 +1,21 @@
 # Technical Writing Portfolio
 
-Celeste Box
+Welcome to my portfolio.
 
-Bienvenidos a una selección curada de mi trabajo técnico. Aquí encontrarás artículos pedagógicos, documentación de APIs, guías rápidas, release notes, troubleshooting y estudios de caso. Es un portfolio trilingüe (ES · EN · PT-BR) que muestra claridad, profundidad técnica y versatilidad en distintos géneros de documentación.
+This portfolio presents a selection of technical writing samples focused on software, SaaS B2B products, APIs, developer-facing documentation, and applied AI.
+
+The content spans multiple documentation formats — tutorials, quickstarts, API overviews, release notes, troubleshooting guides, and technical case studies — written with an emphasis on clarity, usability, and real-world engineering contexts.
+
+The articles in this portfolio are written in English, Spanish, and Portuguese (PT-BR). Each piece reflects the same documentation standards, regardless of language: precision, structure, clarity, usability, and a strong focus on real-world context.
+
+
+###About me
+
+I am a technical writer with a background in technology, systems thinking, and applied ethics. I also have a strong background in teaching, which helps me anticipate reader friction and write with clarity, structure, and intent.
+
+My work focuses on translating complex technical concepts into clear, understandable, and actionable documentation for developers, product teams, and technical stakeholders — whether that’s onboarding flows, API documentation, integration guides, or applied AI topics.
+
+I am particularly interested in documentation as a bridge between engineering, product, and human decision-making.
 
 ---
 
