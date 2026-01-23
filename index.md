@@ -13,7 +13,7 @@ The articles in this portfolio are written in English, Spanish, and Portuguese (
 
 I am a technical writer with a background in technology, systems thinking, and applied ethics. I also have a strong background in teaching and research, which helps me anticipate reader friction and write with intent.
 
-My work focuses on translating complex technical concepts into understandable and actionable documentation for developers, product teams, and technical stakeholders — whether that’s onboarding flows, API documentation, integration guides, or applied AI topics. I think 'translating to ensure action flow' is the best way to define technical writing.
+My work focuses on translating complex technical concepts into understandable and actionable documentation for developers, product teams, and technical stakeholders — whether that’s onboarding flows, API documentation, integration guides, or applied AI topics. For me, technical writing is translation with intent: making sure understanding enables action.
 
 I am particularly interested in documentation as a bridge between engineering, product, and human decision-making.
 
