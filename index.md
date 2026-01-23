@@ -10,6 +10,7 @@ The articles in this portfolio are written in English, Spanish, and Portuguese (
 
 
 
+
 ### About me
 
 I am a technical writer with a background in technology, systems thinking, and applied ethics. I also have a strong background in teaching, which helps me anticipate reader friction and write with clarity, structure, and intent.
