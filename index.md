@@ -21,58 +21,58 @@ I am particularly interested in documentation as a bridge between engineering, p
 
 ## Technical Articles - Python (EN & ES)
 
-### 1 — Cómo crear y activar un entorno virtual en Python (sin morir en el intento)
-[Leer →](pieces/01-python-entorno-intro.md)
+### 1 — How to Create and Activate a Python Virtual Environment (Without Losing Your Mind)
+[Leer →](pieces/01-python-environment-intro-EN.md)
 
 ### 2 — Crear y activar un entorno virtual en Python (dev-to-dev)
-[Leer →](pieces/02-python-entorno-dev-to-dev.md)
+[Leer →](pieces/02-python-entorno-dev-to-dev-ES.md)
 
 ---
 
 ## SaaS B2B · Producto · UX Técnico
 
 ### 3 — Qué hace que un on-boarding de un SaaS funcione (y qué lo arruina en dos clics)
-[Leer →](pieces/03-saas-onboarding.md)
+[Leer →](pieces/03-saas-onboarding-ES.md)
 
 ---
 
 ## Integraciones · APIs · Webhooks
 
-### 4 — Webhooks: diseño, seguridad y patrones recomendados para un SaaS que quiere integrarse en serio
-[Leer →](pieces/04-webhooks-avanzado.md)
+### 4 — Design, Security, and Recommended Patterns for a SaaS That Takes Integrations Seriously
+[Leer →](pieces/04-webhooks-design-EN.md)
 
 ---
 
 ## Inteligencia Artificial Aplicada
 
 ### 5 — Integrar IA hoy: qué se puede, qué no y qué conviene hacer primero
-[Leer →](pieces/05-ia-hoy.md)
+[Leer →](pieces/05-ia-hoy-ES.md)
 
 ---
 
 ## Release Notes
 
 ### 6 — Release Notes — X Platform v1.8.0
-[Leer →](pieces/08-release-notes-x.md)
+[Leer →](pieces/08-release-notes-x-EN.md)
 
 ---
 
 ## Troubleshooting
 
-### 7 — Troubleshooting Guide — X API
-[Leer →](pieces/09-troubleshooting-x.md)
+### 7 — Guía de resolución de problemas — API de X
+[Leer →](pieces/09-problemas-x-ES.md)
 
 ---
 
 ## Documentação — Português (PT-BR)
 
-### 8 — Quickstart Guide: Get Up and Running with X in 10 Minutes
-[Leer →](pieces/06-quickstart-x-en.md)
+### 8 — Guia de Início Rápido: Comece a Usar o X em 10 Minutos
+[Leer →](pieces/08-quickstart-x-ptbr.md)
 
 ### 9 — Visão Geral da API do X
-[Leer →](pieces/07-api-overview-ptbr.md)
+[Leer →](pieces/09-api-overview-ptbr.md)
 
-### 10 — Case Study Técnico: Reduzindo o On-boarding de 40 para 12 minutos na X Platform
+### 10 — Reduzindo o On-boarding de 40 para 12 minutos na X Platform
 [Leer →](pieces/10-case-study-ptbr.md)
 
 ---
