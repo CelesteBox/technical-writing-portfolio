@@ -19,7 +19,7 @@ I am particularly interested in documentation as a bridge between engineering, p
 
 ---
 
-## Artículos Técnicos (Python)
+## Technical Articles - Python (EN & ES)
 
 ### 1 — Cómo crear y activar un entorno virtual en Python (sin morir en el intento)
 [Leer →](pieces/01-python-entorno-intro.md)
@@ -64,14 +64,10 @@ I am particularly interested in documentation as a bridge between engineering, p
 
 ---
 
-## Documentation — English (EN)
+## Documentação — Português (PT-BR)
 
 ### 8 — Quickstart Guide: Get Up and Running with X in 10 Minutes
 [Leer →](pieces/06-quickstart-x-en.md)
-
----
-
-## Documentação — Português (PT-BR)
 
 ### 9 — Visão Geral da API do X
 [Leer →](pieces/07-api-overview-ptbr.md)
@@ -81,9 +77,9 @@ I am particularly interested in documentation as a bridge between engineering, p
 
 ---
 
-## Contacto
+## Contact
 
-Si necesitas material adicional, traducciones, o una pieza específica para un proyecto, hablemos: inboxceleste@gmail.com
+If you need additional material, translations, or a specific piece for a project, feel free to reach out at inboxceleste@gmail.com
 
 ---
 
