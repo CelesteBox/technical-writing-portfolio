@@ -140,7 +140,9 @@ Understanding `venv` first makes those tools easier to adopt later.
 
 ## Final Notes
 
-Virtual environments are not optional hygiene in Python—they are part of the development contract. Once the workflow becomes muscle memory, most dependency-related problems simply disappear.
+Virtual environments are not optional hygiene in Python-they are part of the development contract. Onve the workflow becomes muscle memory, most dependency-related problems simple dissappear.
 Create. Activate. Install. Deactivate. And repeat.
+
+
 ---
 
