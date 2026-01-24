@@ -31,7 +31,7 @@ I am particularly interested in documentation as a bridge between engineering, p
 
 ## SaaS B2B · Product · Technical UX
 
-### 3 — Qué hace que un on-boarding de un SaaS funcione (y qué lo arruina en dos clics)
+### 3 — Qué hace que el onboarding de un SaaS funcione (y qué lo arruina en dos clics)
 [Leer →](pieces/03-saas-onboarding-ES.md)
 
 ---
