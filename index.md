@@ -38,14 +38,14 @@ I am particularly interested in documentation as a bridge between engineering, p
 
 ## Integrations · APIs · Webhooks
 
-### 4 — Design, Security, and Recommended Patterns for a SaaS That Takes Integrations Seriously
+### 4 — Webhooks: Design, Security, and Recommended Patterns for a SaaS That Takes Integrations Seriously
 [Leer →](pieces/04-webhooks-design-EN.md)
 
 ---
 
-## Artificial Intelligence Applied
+## Applied Artificial Intelligence 
 
-### 5 — Integrar IA hoy: qué se puede, qué no y qué conviene hacer primero
+### 5 — Integrar IA hoy: qué se puede, qué no y qué conviene abordar primero
 [Leer →](pieces/05-ia-hoy-ES.md)
 
 ---
@@ -72,7 +72,7 @@ I am particularly interested in documentation as a bridge between engineering, p
 ### 9 — Visão Geral da API do X
 [Leer →](pieces/09-api-overview-ptbr.md)
 
-### 10 — Reduzindo o On-boarding de 40 para 12 minutos na X Platform
+### 10 — Reduzindo o Onboarding de 40 para 12 Minutos na X Platform
 [Leer →](pieces/10-case-study-ptbr.md)
 
 ---
