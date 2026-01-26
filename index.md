@@ -18,64 +18,40 @@ My work focuses on translating complex technical concepts into understandable an
 I am particularly interested in documentation as a bridge between engineering, product, and human decision-making.
 
 ---
-
-
----
-layout: default
-title: How to Create and Activate a Python Virtual Environment (EN)
+### 1 — How to Create and Activate a Python Virtual Environment (Without Losing Your Mind) (EN)
 [Leer →](pieces/01-python-environment-intro-EN.md)
-tags: [python, documentation, developer-tools]
----
 
-### 2 — Crear y activar un entorno virtual en Python (dev-to-dev)
+### 2 — Crear y activar un entorno virtual en Python (dev-to-dev) (ES)
 [Leer →](pieces/02-python-entorno-dev-to-dev-ES.md)
 
 ---
-
-## SaaS B2B · Product · Technical UX
-
-### 3 — Qué hace que el onboarding de un SaaS funcione (y qué lo arruina en dos clics)
+### 3 — Qué hace que el onboarding de un SaaS funcione (y qué lo arruina en dos clics) (ES)
 [Leer →](pieces/03-saas-onboarding-ES.md)
 
 ---
-
-## Integrations · APIs · Webhooks
-
-### 4 — Webhooks: Design, Security, and Recommended Patterns for a SaaS That Takes Integrations Seriously
+### 4 — Webhooks: Design, Security, and Recommended Patterns for a SaaS That Takes Integrations Seriously (EN)
 [Leer →](pieces/04-webhooks-design-EN.md)
 
 ---
-
-## Applied Artificial Intelligence 
-
-### 5 — Integrar IA hoy: qué se puede, qué no y qué conviene abordar primero
+### 5 — Integrar IA hoy: qué se puede, qué no y qué conviene abordar primero (ES)
 [Leer →](pieces/05-ia-hoy-ES.md)
 
 ---
-
-## Release Notes
-
-### 6 — Release Notes — X Platform v1.8.0
+### 6 — Release Notes — X Platform v1.8.0 (EN)
 [Leer →](pieces/08-release-notes-x-EN.md)
 
 ---
-
-## Troubleshooting
-
-### 7 — Guía de resolución de problemas — API de X
+### 7 — Guía de resolución de problemas — API de X (ES)
 [Leer →](pieces/09-problemas-x-ES.md)
 
 ---
-
-## Documentation — Português (PT-BR)
-
-### 8 — Guia de Início Rápido: Comece a Usar o X em 10 Minutos
+### 8 — Guia de Início Rápido: Comece a Usar o X em 10 Minutos (PT BR)
 [Leer →](pieces/08-quickstart-x-ptbr.md)
 
-### 9 — Visão Geral da API do X
+### 9 — Visão Geral da API do X (PT BR)
 [Leer →](pieces/09-api-overview-ptbr.md)
 
-### 10 — Reduzindo o Onboarding de 40 para 12 Minutos na X Platform
+### 10 — Reduzindo o Onboarding de 40 para 12 Minutos na X Platform (PT BR)
 [Leer →](pieces/10-case-study-ptbr.md)
 
 ---
