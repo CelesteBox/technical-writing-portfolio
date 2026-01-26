@@ -56,5 +56,4 @@ Por el contrario, cuando el onboarding está bien diseñado, transmite una idea 
 Y esa percepción, más que cualquier feature, es lo que hace que un usuario decida quedarse.
 
 ---
-forward.
 
