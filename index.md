@@ -2,9 +2,9 @@
 
 Welcome.
 
-This collection presents a selection of technical writing samples focused on software, SaaS B2B products, APIs, developer-facing documentation, and also applied AI.
+This collection presents a selection of technical writing samples focused on software, SaaS B2B products, APIs, developer-facing documentation, and applied AI.
 
-The content spans multiple documentation formats — tutorials, quickstarts, API overviews, release notes, troubleshooting guides, and technical case studies — all written with an special emphasis on clarity, usability, and real-world engineering contexts.
+The content spans multiple documentation formats — tutorials, quickstarts, API overviews, release notes, troubleshooting guides, and technical case studies — all written with a special emphasis on clarity, usability, and real-world engineering contexts.
 
 The articles in this portfolio are written in English, Spanish, and Portuguese (PT-BR). Each piece reflects the same documentation standards, regardless of language.
 
@@ -20,10 +20,12 @@ I am particularly interested in documentation as a bridge between engineering, p
 ---
 
 
-## Technical Articles - Python (EN & ES)
-
-### 1 — How to Create and Activate a Python Virtual Environment (Without Losing Your Mind)
+---
+layout: default
+title: How to Create and Activate a Python Virtual Environment (EN)
 [Leer →](pieces/01-python-environment-intro-EN.md)
+tags: [python, documentation, developer-tools]
+---
 
 ### 2 — Crear y activar un entorno virtual en Python (dev-to-dev)
 [Leer →](pieces/02-python-entorno-dev-to-dev-ES.md)
