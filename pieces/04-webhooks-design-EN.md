@@ -53,8 +53,6 @@ Example (simplified):
 
 Avoid payloads that imply what the consumer should *do*. Consumers decide that.
 
----
-
 ### Version your webhook schema (you will need it)
 
 Webhook consumers often process events automatically. Breaking changes are costly.
@@ -122,8 +120,6 @@ This protects against:
 
 IP allowlists alone are not sufficient.
 
----
-
 ### Acknowledge fast, process later
 
 Webhook endpoints should:
@@ -137,8 +133,6 @@ From the sender’s perspective, a slow endpoint is indistinguishable from a fai
 From the receiver’s perspective, blocking logic increases failure risk.
 
 Asynchronous handling on both sides keeps the system resilient.
-
----
 
 ### Observability: make failures visible
 
@@ -159,8 +153,6 @@ Provide:
 
 This reduces support load and builds trust.
 
----
-
 ### Documentation: the integration is the product
 
 A webhook without documentation is not an integration.
@@ -175,16 +167,9 @@ At minimum, document:
 
 Clear webhook docs reduce integration time dramatically — and are often the difference between “we tried” and “we shipped.”
 
----
-
 ### Final note
 
 Webhooks are not a checkbox feature. They are a long-term contract with external systems you do not control.
 
 Design them as if you’ll have to support them for years — because you will.
-
----
-
-You choose the next coffee.
-
 
