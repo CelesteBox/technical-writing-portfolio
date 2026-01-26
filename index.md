@@ -19,6 +19,7 @@ I am particularly interested in documentation as a bridge between engineering, p
 
 ---
 
+
 ## Technical Articles - Python (EN & ES)
 
 ### 1 — How to Create and Activate a Python Virtual Environment (Without Losing Your Mind)
