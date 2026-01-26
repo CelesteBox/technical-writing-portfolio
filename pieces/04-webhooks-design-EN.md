@@ -11,8 +11,6 @@ If your SaaS exposes webhooks, you are not just sending events. You are designin
 
 This article covers the core design, security, and reliability patterns that separate “we technically have webhooks” from “our integrations actually work.”
 
----
-
 ### What webhooks are (and what they are not)
 
 A webhook is an **event-driven push mechanism**. Your system sends an HTTP request to a customer-defined endpoint when a specific event occurs.
@@ -24,8 +22,6 @@ Key implications:
 * failure is normal, not exceptional
 
 Webhooks are not APIs. They invert control. That inversion is where most problems start.
-
----
 
 ### Designing webhook events: think in facts, not actions
 
@@ -71,8 +67,6 @@ Recommended practices:
 
 Never assume consumers will “just update.” They won’t. Or they can’t.
 
----
-
 ### Delivery guarantees: be honest, then be reliable
 
 You cannot guarantee delivery. Networks fail. Endpoints go down.
@@ -91,8 +85,6 @@ Best practices:
 
 Document this explicitly. Ambiguity here causes integration bugs that are painful to debug.
 
----
-
 ### Idempotency: assume duplicates will happen
 
 Because retries exist, **duplicate events are expected**.
@@ -105,8 +97,6 @@ Include:
 Consumers should be able to safely ignore duplicates. Your documentation should say this clearly.
 
 If your webhook system *doesn’t* generate duplicates, that’s fine — but consumers should not rely on that.
-
----
 
 ### Security: webhooks are an attack surface
 
