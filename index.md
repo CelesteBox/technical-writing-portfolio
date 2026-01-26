@@ -1,5 +1,3 @@
-
-
 Welcome.
 
 This collection presents a selection of technical writing samples focused on software, SaaS B2B products, APIs, developer-facing documentation, and applied AI.
@@ -16,6 +14,7 @@ I am a technical writer with a background in technology, systems thinking, and a
 My work focuses on translating complex technical concepts into understandable and actionable documentation for developers, product teams, and technical stakeholders — whether that’s onboarding flows, API documentation, integration guides, or applied AI topics. For me, technical writing is translation with intent: making sure understanding enables action.
 
 I am particularly interested in documentation as a bridge between engineering, product, and human decision-making.
+
 
 ---
 ### 1 — How to Create and Activate a Python Virtual Environment (Without Losing Your Mind) (EN)
