@@ -1,4 +1,4 @@
-title: Technical Writing Portfolio
+Technical Writing Portfolio
 
 Welcome.
 
