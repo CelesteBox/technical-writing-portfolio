@@ -1,12 +1,5 @@
 ## Artículo Técnico - Python (ES)
 
-# Crear y activar un entorno virtual en Python (dev-to-dev)
-
-No worries at all — el desorden también es parte del proceso cuando se está construyendo algo real. Reordenamos y seguimos.
-Vamos con **el Artículo 2**, tono **dev-to-dev**, técnico, directo, sin pedagogía innecesaria.
-
----
-
 ## Crear y activar un entorno virtual en Python (dev-to-dev)
 
 Si trabajás en Python y no usás entornos virtuales, tarde o temprano algo se rompe. No por mala praxis, sino porque el ecosistema de dependencias no perdona: versiones incompatibles, paquetes globales pisados, proyectos que dejan de correr sin razón aparente.
