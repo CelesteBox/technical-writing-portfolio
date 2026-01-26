@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://celestebox.github.io/technical-writing-portfolio/sitemap.xml
