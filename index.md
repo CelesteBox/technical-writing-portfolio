@@ -1,4 +1,4 @@
-Welcome.
+Welcome to my technical writing portfolio.
 
 This collection presents a selection of technical writing samples focused on software, SaaS B2B products, APIs, developer-facing documentation, and applied AI.
 
@@ -17,47 +17,75 @@ I am particularly interested in documentation as a bridge between engineering, p
 
 
 ---
+
+
 ### 1 — How to Create and Activate a Python Virtual Environment (Without Losing Your Mind) (EN)
 [Leer →](pieces/01-python-environment-intro-EN.md)
+
+
 
 ### 2 — Crear y activar un entorno virtual en Python (dev-to-dev) (ES)
 [Leer →](pieces/02-python-entorno-dev-to-dev-ES.md)
 
+
 ---
+
+
 ### 3 — Qué hace que el onboarding de un SaaS funcione (y qué lo arruina en dos clics) (ES)
 [Leer →](pieces/03-saas-onboarding-ES.md)
 
+
 ---
+
+
 ### 4 — Webhooks: Design, Security, and Recommended Patterns for a SaaS That Takes Integrations Seriously (EN)
 [Leer →](pieces/04-webhooks-design-EN.md)
 
+
 ---
+
+
 ### 5 — Integrar IA hoy: qué se puede, qué no y qué conviene abordar primero (ES)
 [Leer →](pieces/05-ia-hoy-ES.md)
 
+
 ---
+
+
 ### 6 — Release Notes — X Platform v1.8.0 (EN)
 [Leer →](pieces/08-release-notes-x-EN.md)
 
+
 ---
+
+
 ### 7 — Guía de resolución de problemas — API de X (ES)
 [Leer →](pieces/09-problemas-x-ES.md)
 
+
 ---
+
+
 ### 8 — Guia de Início Rápido: Comece a Usar o X em 10 Minutos (PT BR)
 [Leer →](pieces/08-quickstart-x-ptbr.md)
+
 
 ### 9 — Visão Geral da API do X (PT BR)
 [Leer →](pieces/09-api-overview-ptbr.md)
 
+
 ### 10 — Reduzindo o Onboarding de 40 para 12 Minutos na X Platform (PT BR)
 [Leer →](pieces/10-case-study-ptbr.md)
 
+
 ---
+
 
 ## Contact
 
+
 If you need additional material, translations, or a specific piece for a project, feel free to reach out at inboxceleste@gmail.com
+
 
 ---
 
