@@ -10,7 +10,7 @@ This release focuses on performance improvements, reliability enhancements, and 
 
 ---
 
-### 🚀 Improvements
+### Improvements
 
 * **Improved webhook delivery reliability**
   Retry logic has been optimized to reduce failed deliveries caused by transient network errors.
@@ -23,7 +23,7 @@ This release focuses on performance improvements, reliability enhancements, and 
 
 ---
 
-### 🐞 Bug Fixes
+### Bug Fixes
 
 * Fixed an issue where duplicate webhook events could be emitted under rare retry conditions.
 * Resolved an edge case affecting pagination when filtering large datasets.
@@ -31,7 +31,7 @@ This release focuses on performance improvements, reliability enhancements, and 
 
 ---
 
-### 🔧 API Changes
+### API Changes
 
 * **No breaking changes introduced.**
 * Response schemas remain backward compatible.
@@ -39,7 +39,7 @@ This release focuses on performance improvements, reliability enhancements, and 
 
 ---
 
-### 📚 Documentation Updates
+### Documentation Updates
 
 * Clarified webhook retry behavior in the integration guide.
 * Updated API reference examples for improved accuracy.
@@ -47,7 +47,7 @@ This release focuses on performance improvements, reliability enhancements, and 
 
 ---
 
-### ✅ Upgrade Notes
+### Upgrade Notes
 
 No migration steps are required for this release.
 
@@ -55,13 +55,12 @@ Existing integrations will continue to function as expected. Teams may optionall
 
 ---
 
-### 📝 Known Limitations
+### Known Limitations
 
 * Webhook delivery guarantees remain *at-least-once*. Consumers should continue to handle duplicate events.
 * Ordering of webhook events is not guaranteed.
 
 ---
 
-### 📩 Feedback
-
+### Feedback
 If you encounter issues related to this release or have feedback on the platform, please contact the X Platform support team.
