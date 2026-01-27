@@ -1,4 +1,4 @@
-Welcome.
+### Welcome
 
 This collection presents a selection of technical writing samples focused on software, SaaS B2B products, APIs, developer-facing documentation, and applied AI.
 
