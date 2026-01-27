@@ -67,7 +67,7 @@ I am particularly interested in documentation as a bridge between engineering, p
 
 
 ### 8 — Guia de Início Rápido: Comece a Usar o X em 10 Minutos (PT BR)
-[Leer →](pieces/08-quickstart-x-PTBR.md)
+[Leer →](pieces/08-quickstart-x-ptbr.md)
 
 
 ### 9 — Visão Geral da API do X (PT BR)
