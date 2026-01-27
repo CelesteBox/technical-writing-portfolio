@@ -122,5 +122,3 @@ Pero incluso en esos casos, el concepto base sigue siendo el mismo: **aislar con
 Si dominás esto, lo demás es tooling.
 
 ---
-
-👉 Pegalo en su `.md`, hacé **una sola pasada de edición**, y cuando lo cierres seguimos con el siguiente del día.
