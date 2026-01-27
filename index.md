@@ -53,14 +53,14 @@ I am particularly interested in documentation as a bridge between engineering, p
 
 
 ### 6 — Release Notes — X Platform v1.8.0 (EN)
-[Leer →](pieces/08-release-notes-x-EN.md)
+[Leer →](pieces/06-release-notes-x-EN.md)
 
 
 ---
 
 
 ### 7 — Guía de resolución de problemas — API de X (ES)
-[Leer →](pieces/09-problemas-x-ES.md)
+[Leer →](pieces/07-problemas-x-ES.md)
 
 
 ---
