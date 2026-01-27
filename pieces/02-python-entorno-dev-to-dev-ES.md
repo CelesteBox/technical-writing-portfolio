@@ -2,27 +2,24 @@
 
 # Crear y activar un entorno virtual en Python (dev-to-dev)
 
-Si trabajás en Python y no usás entornos virtuales, tarde o temprano algo se rompe. No por mala praxis, sino porque el ecosistema de dependencias no perdona: versiones incompatibles, paquetes globales pisados, proyectos que dejan de correr sin razón aparente.
+Si trabajas en Python sin entornos virtuales, tarde o temprano algo se romperá. No es mala praxis sino el ecosistema de dependencias que no perdona: habrá versiones incompatibles, paquetes globales pisados y proyectos que dejan de correr sin una razón aparente.
 
-Un entorno virtual no es una buena práctica “nice to have”. Es aislamiento básico para poder trabajar con previsibilidad.
+Un entorno virtual no es una buena práctica: es el aislamiento básico para trabajar con previsibilidad.
 
-Este artículo asume que ya sabés qué es Python, qué es `pip` y que usás la terminal sin miedo.
+Algo importante: este artículo asume que sabés qué es Python, qué es `pip` y que usás la terminal sin miedo.
 
-### Qué problema resuelve un entorno virtual (sin romanticismo)
+### Qué problema resuelve un entorno virtual
 
-Un entorno virtual crea un espacio aislado donde:
+Creará un espacio aislado donde:
+* las dependencias pertenecen **a un proyecto**, no a tu sistema,
+* las versiones están controladas,
+* es posible reproducir el entorno en otra máquina.
 
-* las dependencias pertenecen **a un proyecto**, no a tu sistema
-* las versiones quedan controladas
-* reproducir el entorno en otra máquina es posible
+Si instalás todo globalmente, mezclarás contextos. Y eso puede terminar mal.
 
-Nada más. Nada menos.
+### Opción estándar: `venv`
 
-Si instalás todo globalmente, estás mezclando contextos. Y mezclar contextos en software casi siempre termina mal.
-
-### Opción estándar: `venv` (lo que trae Python)
-
-Desde Python 3.3 en adelante, `venv` viene incluido. No necesitás instalar nada extra.
+Desde Python 3.3 en adelante, `venv` viene incluido. 
 
 Desde la raíz de tu proyecto:
 
@@ -30,13 +27,11 @@ Desde la raíz de tu proyecto:
 python -m venv venv
 ```
 
-Convención habitual: llamar al entorno `venv/` o `.venv/`. El nombre no importa; la consistencia sí.
+Usualmente se llama al entorno `venv/` o `.venv/`. El nombre es opcional, la consistencia es vital.
 
 Eso crea una carpeta con el intérprete de Python y `pip` aislados.
 
-### Activar el entorno (acá suelen empezar los errores)
-
-La activación depende del sistema operativo.
+### Activar el entorno según el sistema operativo
 
 **macOS / Linux**
 
@@ -50,17 +45,15 @@ source venv/bin/activate
 venv\Scripts\Activate.ps1
 ```
 
-Si todo salió bien, vas a ver algo así al inicio del prompt:
+Verás algo así al inicio del prompt:
 
 ```text
 (venv)
 ```
 
-Ese prefijo indica que cualquier `python` o `pip` que ejecutes pertenece al entorno virtual, no al sistema.
+Ese prefijo te indica que cualquier `python` o `pip` que ejecutes pertenece al entorno virtual y no al sistema. Si no aparece, pues no está activo. 
 
-Si no aparece, no está activo. No hay estados intermedios.
-
-### Verificación rápida (sin confiar ciegamente)
+### Verificación rápida 
 
 Chequeá qué Python estás usando:
 
@@ -84,7 +77,7 @@ Con el entorno activo:
 pip install requests
 ```
 
-Ese paquete queda instalado **solo** en ese entorno. Otro proyecto no lo ve. Ese es el punto.
+Ese paquete queda instalado **solo** en ese entorno, y otro proyecto no lo verá.
 
 Para persistir dependencias:
 
@@ -98,9 +91,8 @@ Y para reproducirlas en otra máquina:
 pip install -r requirements.txt
 ```
 
-Nada nuevo para un dev, pero sorprendentemente fácil de olvidar.
 
-### Errores comunes (y por qué pasan)
+### Errores comunes
 
 * **“Instalé el paquete pero Python no lo encuentra”**
   → Instalaste con el entorno desactivado.
@@ -111,14 +103,9 @@ Nada nuevo para un dev, pero sorprendentemente fácil de olvidar.
 * **“En mi máquina funciona”**
   → No versionaste dependencias.
 
-Los entornos virtuales no eliminan errores, pero hacen que los errores sean rastreables. Eso ya es una mejora enorme.
+Los entornos virtuales no eliminan errores, pero los harán **rastreables**. 
 
 ### Cuándo esto no alcanza
 
-Para proyectos más complejos (múltiples versiones de Python, tooling más pesado), entran en juego `pyenv`, `poetry`, `pipenv`, contenedores, etc.
-
-Pero incluso en esos casos, el concepto base sigue siendo el mismo: **aislar contextos**.
-
-Si dominás esto, lo demás es tooling.
-
+Para proyectos más complejos (con múltiples versiones de Python, tooling más pesado), entran en juego `pyenv`, `poetry`, `pipenv`, contenedores, etc. Pero el concepto es el mismo: **aislar contextos**.
 ---
