@@ -10,12 +10,12 @@ Algo importante: este artículo asume que sabés qué es Python, qué es `pip` y
 
 ### Qué problema resuelve un entorno virtual
 
-Creará un espacio aislado donde:
+Crea un espacio aislado donde:
 * las dependencias pertenecen **a un proyecto**, no a tu sistema,
 * las versiones están controladas,
 * es posible reproducir el entorno en otra máquina.
 
-Si instalás todo globalmente, mezclarás contextos. Y eso puede terminar mal.
+Si instalás todo globalmente, mezclas contextos. Y eso puede terminar mal.
 
 ### Opción estándar: `venv`
 
@@ -51,7 +51,7 @@ Verás algo así al inicio del prompt:
 (venv)
 ```
 
-Ese prefijo te indica que cualquier `python` o `pip` que ejecutes pertenece al entorno virtual y no al sistema. Si no aparece, pues no está activo. 
+Ese prefijo te indica que cualquier `python` o `pip` que ejecutes pertenece al entorno virtual. Si no aparece, el entorno no está activo. 
 
 ### Verificación rápida 
 
@@ -103,9 +103,9 @@ pip install -r requirements.txt
 * **“En mi máquina funciona”**
   → No versionaste dependencias.
 
-Los entornos virtuales no eliminan errores, pero los harán **rastreables**. 
+Los entornos virtuales no eliminan errores, pero los vuelven **rastreables**. 
 
 ### Cuándo esto no alcanza
 
-Para proyectos más complejos (con múltiples versiones de Python, tooling más pesado), entran en juego `pyenv`, `poetry`, `pipenv`, contenedores, etc. Pero el concepto es el mismo: **aislar contextos**.
+Para proyectos más complejos (múltiples versiones de Python o tooling más pesado), entran en juego `pyenv`, `poetry`, `pipenv`, contenedores, etc. Pero el concepto es el mismo: **aislar contextos**.
 ---
