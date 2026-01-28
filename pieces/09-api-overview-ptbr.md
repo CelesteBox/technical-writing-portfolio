@@ -2,7 +2,7 @@
 
 # Visão Geral da API do X
 
-A API do X foi projetada para permitir integrações previsíveis, seguras e escaláveis com a plataforma.
+A API do X foi projetada para permitir integrações previsíveis, seguras e escaláveis com a plataforma, atendendo desde casos simples até integrações críticas de produção.
 
 
 ### Princípios de design
@@ -16,7 +16,7 @@ Para reduzir o atrito no desenvolvimento e facilitar a manutenção a longo praz
 
 ### Arquitetura geral
 
-A API do X é baseada em HTTP e segue um modelo RESTful, e permete integrações tanto simples quanto complexas, sem exigir SDKs proprietários. Suas características são:
+A API do X é baseada em HTTP e segue um modelo RESTful, e permite integrações tanto simples quanto complexas, sem exigir SDKs proprietários. Suas características são:
 
 * Endpoints versionados (`/v1`, `/v2`)
 * Comunicação via JSON
@@ -45,7 +45,7 @@ A API expõe recursos centrais da plataforma. Cada um possui endpoints dedicados
 
 ### Webhooks e eventos
 
-Para cenários orientados a eventos, a API oferece suporte a webhooks. Eles permetem:
+Para cenários orientados a eventos, a API oferece suporte a webhooks. Eles permitem:
 
 * receber notificações em tempo real
 * reduzir polling desnecessário
@@ -55,7 +55,7 @@ A configuração inclui verificação de assinatura e políticas de reenvio em c
 
 ### Tratamento de erros
 
-A API retorna códigos HTTP padronizados e mensagens de erro descritivas. Erros incluem código, mensagem legível, e contexto adicional quando relevante. Essas informações ajudam no diagnóstico e na implementação de estratégias de retry.
+A API retorna códigos HTTP padronizados e mensagens de erro descritivas. Erros incluem código, mensagem legível, e contexto adicional quando relevante. Essas informações ajudam no diagnóstico e na implementação de estratégias de reenvio.
 
 ### Versionamento e compatibilidade
 
