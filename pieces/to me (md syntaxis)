@@ -1,28 +1,14 @@
-Great question — and you’re *not* imagining it. Markdown can feel a bit… airless if you don’t know its breathing rules.
-
-Short answer: **yes, you can absolutely give your `.md` files oxygen**, and there’s a *correct* way to do it that still looks professional and renders well on GitHub Pages.
-
-Let me give you the mental model first, then the concrete rules.
-
----
-
 ## How spacing works in Markdown (the part no one tells you)
 
 Markdown is not WYSIWYG. It’s closer to *semantic text with rendering rules*.
 
 The key principle is this:
-
-> **A blank line creates a new block.**
-> No blank line = same block = glued text.
-
+> A blank line creates a new block. > No blank line = same block = glued text. 
 So “visual breathing” comes from **empty lines**, not indentation or tabs.
 
 ---
-
 ## The 4 spacing rules you actually need
-
 ### 1. Paragraphs need one empty line between them
-
 This:
 
 ```md
@@ -43,7 +29,6 @@ Without the empty line, Markdown treats it as one paragraph.
 ---
 
 ### 2. Headings breathe better with space above *and* below
-
 Good:
 
 ```md
@@ -66,7 +51,6 @@ Two blank lines after headings are totally acceptable and often used in docs.
 ---
 
 ### 3. Lists need space before them (or they feel crushed)
-
 Good:
 
 ```md
@@ -89,7 +73,6 @@ Key improvements include:
 ---
 
 ### 4. Code blocks want air too
-
 Always add a blank line before and after fenced code blocks:
 
 ````md
@@ -104,15 +87,12 @@ This ensures proper rendering and visual separation.
 ---
 
 ## “Extra air” without breaking Markdown
-
 You *can* safely do this:
-
 * double blank lines between sections
 * single blank line between paragraphs
 * one blank line before and after lists and code blocks
 
 What you **should not** do:
-
 * add random spaces or tabs
 * use `<br>` everywhere (that’s a last resort)
 * rely on indentation for spacing (Markdown ignores it)
@@ -120,7 +100,6 @@ What you **should not** do:
 ---
 
 ## A clean, breathable documentation rhythm (recommended)
-
 Here’s a pattern you can reuse everywhere:
 
 ````md
