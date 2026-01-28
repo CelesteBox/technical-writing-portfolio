@@ -3,21 +3,19 @@
 # Guía de resolución de problemas — API de X
 
 
-Esta guía recopila los problemas más comunes al integrar con la API de X, junto con sus causas probables y los pasos recomendados para diagnosticarlos y resolverlos.
+Esta guía recopila los problemas más comunes al integrar con la API de X, sus causas probables y los pasos recomendados para diagnosticarlos y resolverlos. 
 
-Está pensada para equipos técnicos que ya tienen una integración en marcha y necesitan identificar fallos de forma rápida y sistemática.
+Permite a equipos técnicos identificar de forma rápida y sistemática fallos en integraciones en producción
 
 ---
 
-### Antes de empezar
+### Antes de analizar un error
 
-Antes de analizar un error específico, verificá lo siguiente:
+Necesitas alinear el entorno, las credenciales y la versión. Para eso verificá:
 
-* Estás utilizando la **URL base correcta** para el entorno (producción o sandbox).
+* Usas la **URL base correcta** para el entorno (producción o sandbox).
 * Las credenciales de autenticación están vigentes.
-* El request que estás enviando coincide con la **versión de la API** documentada.
-
-Muchos errores se originan en desalineaciones básicas entre entorno, credenciales y versión.
+* Tu request coincide con la **versión de la API** documentada.
 
 ---
 
@@ -56,11 +54,12 @@ La API rechaza la solicitud con un error `400`.
 
 #### Pasos recomendados
 
+Los errores de validación suelen ser determinísticos: una vez corregido el request, desaparece el problema. Entonces:
+
 1. Validá el payload contra el esquema documentado.
 2. Revisá nombres de campos y estructuras anidadas.
 3. Confirmá formatos esperados (fechas, identificadores, enumeraciones).
 
-Errores de validación suelen ser determinísticos: una vez corregido el request, el problema desaparece.
 
 ---
 
@@ -68,7 +67,7 @@ Errores de validación suelen ser determinísticos: una vez corregido el request
 
 #### Síntoma
 
-La API responde correctamente, pero el contenido no coincide con lo esperado.
+La API responde, pero el contenido no coincide con lo esperado.
 
 #### Causas comunes
 
@@ -78,11 +77,11 @@ La API responde correctamente, pero el contenido no coincide con lo esperado.
 
 #### Pasos recomendados
 
+Evitar suposiciones reducirá significativamente este tipo de errores. Para eso:
+
 1. Revisá los parámetros de consulta enviados.
 2. Confirmá el estado actual del recurso en cuestión.
 3. Consultá la documentación sobre valores opcionales y defaults.
-
-Evitar suposiciones reduce este tipo de errores de forma significativa.
 
 ---
 
@@ -103,7 +102,7 @@ Los eventos no llegan o llegan de forma intermitente.
 1. Verificá que el endpoint responda rápidamente con `200 OK`.
 2. Revisá logs de delivery y reintentos.
 3. Confirmá la implementación de validación de firmas.
-4. Asegurate de manejar eventos duplicados.
+4. Manejá los eventos duplicados.
 
 Recordá que los webhooks tienen garantía *at-least-once*.
 
@@ -123,40 +122,36 @@ La API responde con errores `5xx` o timeouts.
 
 #### Pasos recomendados
 
-1. Implementá reintentos con backoff exponencial.
-2. Evitá reintentar inmediatamente de forma agresiva.
-3. Registrá el error y reintentá más tarde.
+Los errores 5xx suelen ser transitorios. Y el cliente debe estar preparado para eso.
 
-Los errores 5xx suelen ser transitorios. El cliente debe estar preparado para eso.
+1. Implementá reintentos con backoff exponencial.
+2. Evitá reintentar de inmediato agresivamente.
+3. Registrá el error y reintentá más tarde.
 
 ---
 
 ### Buenas prácticas para diagnóstico
 
 * Loguear requests y responses relevantes.
-* Incluir identificadores de correlación cuando sea posible.
-* Probar los mismos requests en un entorno controlado.
-* Aislar variables: cambiar una cosa por vez.
+* Cuando sea posible, incluí identificadores de correlación.
+* Prueba los mismos requests en un entorno controlado.
+* Aislar variables cambiando una cosa a la vez.
 
-La observabilidad es parte de la integración, no un agregado posterior.
+Importante: la observabilidad es parte de la integración, no un agregado posterior.
 
 ---
 
-### Cuándo contactar soporte
+### Contactar a soporte
 
-Contactá al equipo de soporte si:
+* Si el error persiste luego de seguir esta guía.
+* Si hay comportamientos inconsistentes entre entornos.
+* Si recibís errores no documentados.
 
-* El error persiste luego de seguir esta guía.
-* Observás comportamientos inconsistentes entre entornos.
-* Recibís errores no documentados.
+Para acelerar la resolución incluí siempre:
 
-Incluí siempre:
-
-* endpoint afectado
-* request ID (si aplica)
-* timestamp
-* payload resumido
-
-Eso acelera mucho la resolución.
+* Endpoint afectado
+* Request ID (si aplica)
+* Timestamp
+* Payload resumido
 
 
