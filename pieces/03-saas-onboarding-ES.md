@@ -1,6 +1,6 @@
 ### SaaS B2B · Producto · UX Técnico (ES)
 
-# Qué hace que un on-boarding de un SaaS funcione (y qué lo destroza)
+# Qué hace que un on-boarding de un SaaS funcione (y qué lo arruina)
 
 
 El onboarding es la primera prueba de un usuario con un producto SaaS. Y es crítica. El producto tiene que responder la única pregunta correcta: *¿vale la pena aprender esto?*
