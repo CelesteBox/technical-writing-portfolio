@@ -58,15 +58,15 @@ Recommended practices:
 * Keep old versions always active during a deprecation window
 * Document all differences clearly
 
-Consumers won't “just update.” That's not in your control, so better not to assume it.
+Consumers won't just update. That's not in your control, so better not to assume it.
 
 ### Delivery guarantees
 
 You cannot guarantee delivery -networks fail, endpoints go down. What you actually *can* guarantee:
 
-* **At-least-once delivery**
-* **Retry behavior**
-* **Ordering semantics (or lack thereof)**
+* At-least-once delivery
+* Retry behavior
+* Ordering semantics (or lack thereof)
 
 Best practices:
 
@@ -113,7 +113,7 @@ This will protect against:
 
 IP allowlists alone are not sufficient.
 
-### Respond time
+### Response time
 
 Webhook endpoints should:
 
