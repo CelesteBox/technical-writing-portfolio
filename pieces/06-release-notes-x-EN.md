@@ -63,4 +63,4 @@ Existing integrations will continue to function as expected. Teams may optionall
 ---
 
 ### Feedback
-If you encounter issues related to this release or have feedback on the platform, please contact the X Platform support team.
+If you encounter any issues related to this release or have feedback on the platform, please contact the X Platform support team.
