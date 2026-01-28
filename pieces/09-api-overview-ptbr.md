@@ -4,7 +4,6 @@
 
 A API do X foi projetada para permitir integrações previsíveis, seguras e escaláveis com a plataforma.
 
-***********Este documento oferece uma visão geral da arquitetura, dos principais recursos e dos padrões de uso recomendados, ajudando equipes técnicas a entender rapidamente como a API se encaixa em seus sistemas.***********************
 
 ### Princípios de design
 
