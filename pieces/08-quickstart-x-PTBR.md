@@ -4,16 +4,6 @@
 # Guia de Início Rápido: Comece a Usar o X em 10 Minutos
 
 
-I understand you perfectly — even with the translation scars 😊
-“Siempre despierto” survives the crossing. And yes: that’s exactly the vibe. A nerdy, caring assistant who doesn’t fall asleep in the middle of your thinking.
-
-Let’s switch gently into **Português (PT-BR)** and keep the same calm, technical, human tone.
-No rush, no fireworks. Just good work.
-
-We’ll start with **Article 8**:
-
-## Guia de Início Rápido: Comece a Usar o X em 10 Minutos
-
 Este guia foi criado para desenvolvedores que querem começar a usar a plataforma X rapidamente, sem percorrer toda a documentação desde o início.
 
 Em cerca de 10 minutos, você terá uma integração básica funcionando.
