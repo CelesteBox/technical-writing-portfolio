@@ -4,8 +4,8 @@
 
 La conversación sobre inteligencia artificial suele oscilar entre dos extremos: expectativas grandilocuentes o rechazo defensivo. Los equipos reales operan en el medio, y eso impone una pregunta más concreta:
 
-> ¿Qué partes de un producto o proceso *tiene sentido* intervenir hoy con IA, y cuáles no?
-> Al decidir hacerlo, ¿por dónde empezar?
+*¿En qué partes de un producto o proceso *tiene sentido* intervenir hoy con IA y cuáles no?*
+*Al decidir hacerlo, ¿por dónde empezar?*
 
 Veamos cómo *integrar IA con criterio* en contextos de software, SaaS B2B y sistemas existentes.
 
@@ -17,7 +17,7 @@ Algunos usos de IA están lo suficientemente maduros para integrarlos sin reescr
   Clasificación, resumen, extracción de información, búsqueda semántica, detección de patrones.
 
 * **Automatización supervisada**
-  Sugerencias, pre-clasificación, scoring, recomendaciones que pasan por una capa humana o de reglas.
+  Sugerencias, preclasificación, scoring, recomendaciones que pasan por una capa humana o de reglas.
 
 * **Interfaces más flexibles**
   Entrada en lenguaje natural, ayuda contextual, exploración de datos no estructurados.
@@ -94,4 +94,4 @@ Integrar IA hoy no significa automatizar todo, sino *elegir con cuidado* qué pa
 
 No se trata de usar IA porque sí, sino de preguntarse:
 
-> ¿Dónde nos ayuda a pensar, decidir o trabajar mejor — sin desarmar lo que ya funciona?
+*¿Dónde nos ayuda a pensar, decidir o trabajar mejor — sin desarmar lo que ya funciona?*
