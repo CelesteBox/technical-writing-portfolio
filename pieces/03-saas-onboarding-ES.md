@@ -3,9 +3,9 @@
 # Qué hace que un on-boarding de un SaaS funcione (y qué lo arruina)
 
 
-El onboarding es la primera prueba de un usuario con un producto SaaS. Y es crítica. El producto tiene que responder la única pregunta correcta: *¿vale la pena aprender esto?*
+El onboarding es la primera prueba de un usuario con un producto SaaS, y es crítica. El producto tiene que responder la única pregunta correcta: *¿vale la pena aprender esto?*
 
-Si funciona, el usuario avanza sintiéndose en control. Si falla, no lo hará estrepitosamente: habrá fricción acumulada, microdecisiones mal resueltas, muchos pedidos demasiado pronto. Allí viene el abandono.
+Si funciona, el usuario avanza sintiéndose en control. Si falla, no lo hará estrepitosamente: habrá fricción acumulada, microdecisiones mal resueltas, muchos pedidos demasiado pronto. Ahí comienza el abandono.
 
 ### El error más común: confundir onboarding con explicación
 
@@ -15,12 +15,12 @@ Un onboarding efectivo no tiene que explicar el sistema completo. Debe **habilit
 
 ### El principio clave: progresión guiada, no exposición
 
-Los onboardings que funcionan introducen complejidad de forma progresiva y contextual. No exponen funcionalidades __porque existen__, sino que las presentan unidas a las necesidades del usuario.
+Los onboardings que funcionan introducen complejidad de forma progresiva y contextual. No exponen funcionalidades porque existen, sino que las presentan unidas a las necesidades del usuario.
 
 Por esto es necesario diseñar el recorrido inicial como una secuencia de decisiones pequeñas, que deben responder tres cosas:
-* qué tengo que hacer ahora
-* por qué es relevante
-* qué cambia si no lo hago
+* Qué tengo que hacer ahora
+* Por qué es relevante
+* Qué cambia si no lo hago
 
 Si alguna de ellas falta, aparece la fricción.
 
