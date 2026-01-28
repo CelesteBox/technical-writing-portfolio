@@ -2,89 +2,70 @@
 
 # Reduzindo o Onboarding de 40 para 12 Minutos na X Platform
 
-Onboarding é o primeiro teste real de um produto.
-Se falha, nada do que vem depois importa.
-
-Este artigo descreve como a X Platform reduziu o tempo médio de onboarding de 40 para 12 minutos, focando menos em adicionar recursos e mais em remover fricções invisíveis.
+Onboarding é o primeiro teste real de um produto. Se falha, nada do que vem depois importa. Para reduzir o tempo médio de onboarding na X platform, é melhor focar em remover fricções invisíveis do que em adicionar recursos.
 
 ### O problema inicial
 
 Antes da mudança, novos usuários enfrentavam:
 
-* múltiplas etapas obrigatórias sem contexto
-* documentação extensa logo no início
-* dependência excessiva de suporte humano
+* Múltiplas etapas obrigatórias sem contexto
+* Documentação extensa logo no início
+* Dependência excessiva de suporte humano
 
-O produto era poderoso, mas o caminho até o primeiro valor era longo.
 
-### Métrica principal: tempo até o primeiro sucesso
+### Completar uma ação sem ajuda externa
 
-Em vez de otimizar cada etapa isoladamente, a equipe definiu uma métrica clara:
+Em vez de otimizar cada etapa isoladamente, a equipe definiu o *tempo até o primeiro sucesso*, como o momento em que o usuário completa uma ação significativa sem ajuda externa.
 
-**tempo até o primeiro sucesso**, entendido como o momento em que o usuário completa uma ação significativa sem ajuda externa.
 
-Tudo o que não contribuía para essa métrica passou a ser questionado.
+### Progresso contínuo, mesmo sem tanta informação.
 
-### Simplificando o fluxo inicial
+Para simplificar o fluxo inicial, fizeram algumas mudanças:
 
-As principais mudanças incluíram:
+* Redução do número de passos obrigatórios
+* Adiamento de configurações avançadas
+* Uso de valores padrão seguros
+* Eliminação de decisões irreversíveis no início
 
-* redução do número de passos obrigatórios
-* adiamento de configurações avançadas
-* uso de valores padrão seguros
-* eliminação de decisões irreversíveis no início
-
-O objetivo era permitir progresso contínuo, mesmo com informações incompletas.
 
 ### Documentação no momento certo
 
-A documentação deixou de ser um pré-requisito e passou a ser contextual.
+A documentação deixou de ser um pré-requisito e passou a ser contextual. Isso reduziu a carga cognitiva sem esconder a complexidade real do sistema. A mudanca aconteceu em:
 
-Em vez de links genéricos, o produto passou a oferecer:
+* As explicações curtas dentro da interface
+* Os exemplos acionáveis
+* Nos links diretos para seções específicas da documentação
 
-* explicações curtas dentro da interface
-* exemplos acionáveis
-* links diretos para seções específicas da documentação
-
-Isso reduziu a carga cognitiva sem esconder a complexidade real do sistema.
 
 ### Feedback rápido e visível
 
-Outro ponto crítico foi tornar o feedback imediato.
+Outro ponto crítico foi tornar o feedback imediato. A plataforma passou a indicar para os usuários:
 
-A plataforma passou a indicar claramente:
+* Quando uma ação foi bem-sucedida
+* O que aconteceu nos bastidores
+* Qual é o próximo passo recomendado
 
-* quando uma ação foi bem-sucedida
-* o que aconteceu nos bastidores
-* qual é o próximo passo recomendado
-
-Usuários não precisavam mais adivinhar se estavam no caminho certo.
 
 ### Automação de tarefas repetitivas
 
-Tarefas propensas a erro foram automatizadas sempre que possível.
+Tarefas propensas a erro foram automatizadas sempre que possível. Isso incluiu:
 
-Isso incluiu:
+* Geração automática de credenciais
+* Validações antecipadas
+* Criação assistida de recursos iniciais
 
-* geração automática de credenciais
-* validações antecipadas
-* criação assistida de recursos iniciais
-
-A automação não substituiu o controle, mas reduziu frustrações evitáveis.
 
 ### Resultados observados
 
-Após as mudanças:
+A melhoria não veio de um grande redesenho, mas de decisões consistentes. Após as mudanças:
 
-* o tempo médio de onboarding caiu de 40 para 12 minutos
-* solicitações iniciais de suporte diminuíram
-* mais usuários alcançaram o primeiro sucesso no mesmo dia
+* O tempo médio de onboarding caiu de 40 para 12 minutos
+* Solicitações iniciais de suporte diminuíram
+* Mais usuários alcançaram o primeiro sucesso no mesmo dia
 
-A melhoria não veio de um grande redesenho, mas de decisões consistentes.
 
 ### O que aprendemos
 
-Onboarding não é uma tela ou um tutorial.
-É um sistema.
+Onboarding é um sistema.
 
-Reduzir tempo não significa apressar o usuário, mas remover obstáculos desnecessários e oferecer clareza no momento certo.
+Remover obstáculos desnecessários e oferecer clareza no momento certo para o usuário otimiza a usabilidade da X Platform.
