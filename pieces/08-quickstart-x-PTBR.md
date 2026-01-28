@@ -4,25 +4,24 @@
 # Guia de Início Rápido: Comece a Usar o X em 10 Minutos
 
 
-Este guia foi criado para desenvolvedores que querem começar a usar a plataforma X rapidamente, sem percorrer toda a documentação desde o início.
+Este guia foi criado para desenvolvedores prestes a começar a usar a plataforma X, sem percorrer toda a documentação desde o início.
 
-Em cerca de 10 minutos, você terá uma integração básica funcionando.
+Se tiver 10 minutos, você obterá uma integração básica funcionando.
 
 ### Pré-requisitos
 
-Antes de começar, verifique se você tem:
+Não precissa conhecimento prévio profundo da API, apenas familiaridade básica com requisições HTTP. 
+Mas antes de começar, verifique se você tem:
 
 * Uma conta ativa na plataforma X
 * Uma chave de API válida
 * Um ambiente de desenvolvimento configurado
 
-Não é necessário conhecimento prévio profundo da API, apenas familiaridade básica com requisições HTTP.
-
 ### Passo 1 — Obter credenciais
 
-Acesse o painel de desenvolvedor e gere sua chave de API.
+Acesse o painel de desenvolvedor e gere sua chave de API. 
+Lembre-se de guardar essas credenciais. Elas serão usadas para autenticar todas as requisições à API.
 
-Guarde essas credenciais com cuidado. Elas serão usadas para autenticar todas as requisições à API.
 
 ### Passo 2 — Fazer a primeira requisição
 
@@ -35,7 +34,7 @@ Authorization: Bearer YOUR_API_KEY
 
 Se tudo estiver correto, a API responderá com o status do serviço.
 
-Esse passo confirma que:
+Com esse passo confirma que:
 
 * suas credenciais estão corretas
 * o ambiente está acessível
@@ -59,7 +58,7 @@ Payload mínimo:
 }
 ```
 
-Uma resposta `201 Created` indica que o recurso foi criado com sucesso.
+A resposta `201 Created` indica que o recurso foi criado com sucesso.
 
 ### Passo 4 — Consultar o recurso criado
 
@@ -70,18 +69,18 @@ GET /v1/resources/{id}
 Authorization: Bearer YOUR_API_KEY
 ```
 
-Esse passo fecha o ciclo básico: criar → consultar.
+Com esse passo fecha o ciclo básico: criar → consultar.
 
 ### Próximos passos
 
-A partir daqui, você pode:
+A partir daqui, você poderá:
 
 * Configurar webhooks
 * Explorar filtros e parâmetros avançados
 * Implementar autenticação por ambiente
 * Tratar erros e reintentos
 
-Este guia é apenas o ponto de partida.
+Este guia foi apenas o ponto de partida.
 
 ### Dicas rápidas
 
@@ -89,4 +88,4 @@ Este guia é apenas o ponto de partida.
 * Logue requisições durante o desenvolvimento
 * Leia os erros com atenção: a API tenta ser explícita
 
-A documentação completa está disponível para aprofundar cada etapa.
+Você tem a documentação completa disponível para aprofundar cada etapa.
