@@ -10,7 +10,7 @@ Se tiver 10 minutos, você obterá uma integração básica funcionando.
 
 ### Pré-requisitos
 
-Não precissa conhecimento prévio profundo da API, apenas familiaridade básica com requisições HTTP. 
+Não é precisso conhecimento prévio profundo da API, apenas familiaridade básica com requisições HTTP. 
 Mas antes de começar, verifique se você tem:
 
 * Uma conta ativa na plataforma X
