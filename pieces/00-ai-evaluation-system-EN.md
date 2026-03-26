@@ -1,17 +1,17 @@
 
-AI Response Evaluation System Documentation
+# AI Response Evaluation System Documentation
 
-1. Overview
+## 1. Overview
 
 This system enables human evaluators to assess and compare AI-generated responses in order to improve model performance. It is designed to capture nuanced judgments around accuracy, clarity, and usefulness that automated evaluation methods often fail to detect.
 
 By incorporating structured human feedback into the evaluation pipeline, the system supports the creation of high-quality datasets used for model training, fine-tuning, and prompt optimization. This process is essential for aligning AI outputs with real-world expectations and user intent.
 
-2. Workflow
+## 2. Workflow
 
 The evaluation workflow follows a five-stage process designed to ensure structured and reproducible assessments.
 
-Stage 1 – Prompt Submission
+### Stage 1 – Prompt Submission
 A test operator submits a prompt to the system. Prompts may be sourced from curated test sets, real user interactions, or adversarial scenarios designed to probe model limitations.
 
 Stage 2 – Response Generation
