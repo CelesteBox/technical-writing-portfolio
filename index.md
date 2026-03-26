@@ -21,11 +21,15 @@ I am particularly interested in documentation as a bridge between engineering, p
 ### AI Response Evaluation System Documentation (EN)
 [Leer →](pieces/00-ai-evaluation-system-EN.md)
 
+
 ---
+
 
 ### How to Create and Activate a Python Virtual Environment (Without Losing Your Mind) (EN)
 [Leer →](pieces/01-python-environment-intro-EN.md)
 
+
+---
 
 
 ### Crear y activar un entorno virtual en Python (dev-to-dev) (ES)
@@ -74,8 +78,14 @@ I am particularly interested in documentation as a bridge between engineering, p
 [Leer →](pieces/08-quickstart-x-PTBR.md)
 
 
+---
+
+
 ### Visão Geral da API do X (PT BR)
 [Leer →](pieces/09-api-overview-ptbr.md)
+
+
+---
 
 
 ### Reduzindo o Onboarding de 40 para 12 Minutos na X Platform (PT BR)
