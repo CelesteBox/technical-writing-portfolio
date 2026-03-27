@@ -1,10 +1,13 @@
 ### Welcome
 
+
+I design structured technical documentation focused on clarity, evaluation systems, and workflow definition. My work centers on translating complex processes into usable, consistent documentation that can function as a source of truth across teams.
+
 This collection presents a selection of technical writing samples focused on software, SaaS B2B products, APIs, developer-facing documentation, and applied AI.
 
 The content spans multiple documentation formats — tutorials, quickstarts, API overviews, release notes, troubleshooting guides, and technical case studies — all written with a special emphasis on clarity, usability, and real-world engineering contexts.
 
-The articles in this portfolio are written in English, Spanish, and Portuguese (PT-BR). Each piece reflects the same documentation standards, regardless of language.
+The articles in this portfolio are written in English, Spanish, and Portuguese (Brazil). Each piece reflects the same documentation standards, regardless of language.
 
 
 ### About me
