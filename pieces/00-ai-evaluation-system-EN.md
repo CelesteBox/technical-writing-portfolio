@@ -1,4 +1,4 @@
-### Technical Articles AI - EN
+### Technical Articles AI topics
 
 ---
 
