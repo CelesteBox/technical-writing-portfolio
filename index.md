@@ -22,7 +22,8 @@ I am particularly interested in documentation as a bridge between engineering, p
 ## Featured Work
 
 ### AI Response Evaluation System Documentation
-Technical documentation sample demonstrating workflow design, evaluation criteria, and edge case handling in AI training environments.
+This document defines a structured evaluation framework for assessing AI-generated responses in training and validation environments.
+
 
 [View document](pieces/00-ai-evaluation-system-EN.md)
 
