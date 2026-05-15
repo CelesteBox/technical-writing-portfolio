@@ -11,4 +11,6 @@ Topics covered include:
 - SaaS B2B onboarding and APIs
 - Webhooks and integrations
 - Applied AI
+- LLM Evaluation
+- AI Training (Language)
 - Documentation in ES / EN / PT-BR
